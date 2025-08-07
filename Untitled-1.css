@@ -1,0 +1,39 @@
+.I{
+  width: 60%;
+  max-width: 1200;
+  min-width: 600;
+}
+.M{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.m a{
+    background-color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.m a:hover{
+    color: blueviolet;
+}
+.card{
+
+}
+.cardCO{
+ 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(128, 226, 250);
+    color: rgb(230, 235, 235);
+}
+header{
+    background-color: rgb(59, 159, 240);
+    color: white;
+    padding: 20px 20px;
+}
+header.I{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
